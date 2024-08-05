@@ -15,7 +15,7 @@ const Index = () => {
 
 
   return (
-    user ? <Card user={user} /> : <div>User "Nishanth K R" not found</div>
+    user ? <Card user={user} /> : <div>User not found</div>
   );
 }
 
