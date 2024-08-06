@@ -37,7 +37,7 @@ const Smcard = ({ user }: { user: UserProps }) => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 sm-card">
       <CardContainer className="inter-var">
-        <CardBody className="bg-[url('../assets/sm-og.png')] bg-cover w-[50vw] h-auto shadow-2xl rounded-3xl flex flex-col justify-center items-center p-4 bg-white relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1]">
+        <CardBody className="bg-[url('../assets/sm-og.png')] bg-cover w-[90vw] h-auto shadow-2xl rounded-3xl flex flex-col justify-center items-center p-4 bg-white relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1]">
           <CardItem
             translateZ={10}
             className="w-full flex justify-center items-center mb-4"
