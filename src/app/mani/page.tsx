@@ -4,7 +4,7 @@ import users, { UserProps } from "@/user";
 import { Metadata } from "next";
 
 const user: UserProps | undefined = users.find(
-  (user) => user.name === "Nishanth K R"
+  (user) => user.name === "Manikandan PP"
 );
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const Index = () => {
   const user: UserProps | undefined = users.find(
-    (user) => user.name === "Nishanth K R"
+    (user) => user.name === "Manikandan PP"
   );
 
   return user ? <Card user={user} /> : <div>User not found</div>;
