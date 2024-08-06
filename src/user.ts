@@ -92,7 +92,7 @@ const users: UserProps[] = [
   },
   {
     name: "Sivasankari S",
-    designation: "Digital Business Improvement Associate",
+    designation: "Head HR Recruitment | DBI Senior Associate",
     description: "At Xyloinc collaborating closely with cross-functional teams to streamline workflows, boost efficiency, and ensure the successful execution of digital initiatives. Her expertise in digital business improvement, combined with her strategic thinking, makes her a valuable asset to the company.",
     companyName: "XYLOINC",
     employeeid:"XDC-124",
@@ -123,7 +123,7 @@ const users: UserProps[] = [
     }
   },
   {
-    name: "Prasana S",
+    name: "Prasanna S",
     designation: "Application Development Intern",
     description:"At Xyloinc,a dedicated Application Developer specializing in crafting responsive and user-friendly mobile applications using React Native and Expo. With a keen eye for detail and a passion for innovative solutions,consistently deliverying high-quality applications that enhance user experience. His expertise in mobile development ensures that each project not only meets but exceeds client expectations.",
     companyName: "XYLOINC",

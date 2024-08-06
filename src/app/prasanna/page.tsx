@@ -3,14 +3,14 @@ import Card from '@/components/cards';
 import users, { UserProps } from '@/user';
 import { Metadata } from 'next';
 
-const user: UserProps | undefined = users.find(user => user.name === "Prasana S");
+const user: UserProps | undefined = users.find(user => user.name === "Prasanna S");
 
 export   const metadata: Metadata = {
   title: user?.name || "XYLOINC",
 };
 
 const Index = () => {
-  const user: UserProps | undefined = users.find(user => user.name === "Prasana S");
+  const user: UserProps | undefined = users.find(user => user.name === "Prasanna S");
 
 
 

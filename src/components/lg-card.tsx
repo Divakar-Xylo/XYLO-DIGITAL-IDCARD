@@ -40,7 +40,7 @@ const Lgcard = ({ user }: { user: UserProps }) => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-white lg-card">
       <CardContainer className="inter-var">
-        <CardBody className="lg-card bg-[url('../assets/lg-card.png')] bg-cover w-[50vw] h-[45vh] shadow-2xl rounded-3xl flex justify-center items-center p-9 bg-white relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1]">
+        <CardBody className="lg-card bg-[url('../assets/lg-card.png')] bg-cover w-[50vw]  shadow-2xl rounded-3xl flex justify-center items-center p-20 bg-white relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1]">
           <CardItem
             translateZ={10}
             className="w-[30%] flex justify-center items-center"
@@ -59,7 +59,7 @@ const Lgcard = ({ user }: { user: UserProps }) => {
               className="border-white border-4 rounded-full shadow-lg shadow-black/50"
             />
           </CardItem>
-          <div className="w-[70%] flex flex-col justify-center pl-4 pb-2">
+          <div className="w-[70%] flex flex-col justify-center pl-10 pb-2">
             <CardItem
               translateZ={30}
               className="text-2xl font-bold text-gray-800"
