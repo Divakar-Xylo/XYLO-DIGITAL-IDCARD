@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
 const config = {
   darkMode: ["class"],
@@ -7,7 +7,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-  ],
+	],
   prefix: "",
   theme: {
     container: {
@@ -72,29 +72,9 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-      translate: {
-        'z-10': 'translateZ(10px)',
-        'z-20': 'translateZ(20px)',
-        'z-30': 'translateZ(30px)',
-        'z-40': 'translateZ(40px)',
-        'z-50': 'translateZ(50px)',
-        'z-60': 'translateZ(60px)',
-        'z-70': 'translateZ(70px)',
-        'z-80': 'translateZ(80px)',
-        'z-90': 'translateZ(90px)',
-        'z-100': 'translateZ(100px)',
-      },
-      transitionProperty: {
-        'transform': 'transform',
-      },
-    },
-  },
-  variants: {
-    extend: {
-      translate: ['group-hover'],
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config;
+} satisfies Config
 
-export default config;
+export default config

@@ -33,7 +33,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "build/types/**/*.ts"
-  ],
+, "src/app/id/[users]/registeration/page.tsx"  ],
   "exclude": [
     "node_modules"
   ]
